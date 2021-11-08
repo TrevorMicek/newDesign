@@ -87,3 +87,177 @@
     margin: 0 auto;
 }
 }
+
+.firstSectionGraphic {
+    position: relative;
+    margin: auto 0;
+    margin-left: 2vw;
+}
+.firstSectionTitle {
+    display: flex;
+    justify-content:left;
+}
+.firstSectionTitle > h3 {
+    font-size: 1.6rem;
+    margin: auto 0;
+}
+.firstSectionText {
+    font-size: 1.1rem;
+    margin-top: 4vh;
+}
+.firstSectionText p {
+    margin: 2vh 0;
+}
+@media only screen and (min-width: 320px) and (max-width: 410px) {
+.firstSectionTitle > h3 {
+    font-size: 1.3rem;
+}
+.firstSectionText {
+    margin-top: 0vh;
+    font-size: 1.1rem;
+}
+.firstSectionGraphic {
+    max-width: 25vw;
+}
+}
+@media only screen and (min-width: 668px) {
+.firstSectionWrapper {
+    max-width: 500px;
+}
+}
+@media only screen and (min-width: 860px) {
+.firstSectionTitle > h3 {
+    font-size: 1.75rem;
+}
+.firstSectionText {
+    font-size: 1.2rem;
+}
+}
+@media only screen and (min-width: 1030px) {
+.firstSectionWrapper {
+    max-width: 600px;
+}
+}
+.price > h3 {
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    padding-top: 1vh;
+ }
+ .priceTitle {
+    font-weight: 100;
+}
+ .dollarsign {
+    position: relative;
+    bottom: 2.5vh;
+    font-size: 1rem;
+ }
+ .month {
+    position: relative;
+    font-size: .9rem;
+
+ }
+.pricingTitle {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    margin: 0vh auto 2vh auto;
+    text-align: center;
+    position: relative;
+
+}
+.pricingSection > div {
+    align-items: center;
+    border: 1px solid #89cccc;
+    margin: 0 auto;
+    margin-bottom: 10vh;
+    text-align: center;
+    background: rgb(34, 34, 34);
+    max-width: 300px;
+
+}
+.pricingTitle > span:nth-child(1) {
+    font-size: 1.5rem;
+    background: black;
+    padding: 2vh 0;
+
+}
+.pricingTitle > span:nth-child(2) {
+    margin-top: 2vh;
+    font-size: 1.25rem;
+
+ }
+ .featureSwitch {
+    height: 5vh;
+    width: 100%;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: flex-end;
+ }
+ .featureButtonActive {
+    border: 1px solid rgb(126, 125, 125);
+    color:rgb(49, 49, 49);
+    background: #d1d1d1;
+    outline: none;
+    margin-right: 5vw;
+    border-radius: 5px;
+ }
+ .benefitButtonActive {
+    border: 1px solid rgb(126, 125, 125);
+    color:rgb(49, 49, 49);
+    background: #d1d1d1;
+    outline: none;
+    border-radius: 5px;
+ }
+ .featureButton {
+     -webkit-appearance: none;
+
+     margin-right: 5vw;
+     border-radius: 5px;
+ }
+ .benefitButton {
+    -webkit-appearance: none;
+     cursor: auto;
+     border-radius: 5px;
+     margin: 0 auto;
+ }
+ @media only screen and (min-width: 320px) and (max-width: 410px) {
+.pricingSection > div {
+    width: 230px;
+}
+}
+@media only screen and (min-width: 500px) {
+.pricingSection > div{
+    min-width: 300px;
+
+}
+}
+@media only screen and (min-width: 1000px) {
+    .pricingSection > div{
+        margin: 0 1vw;
+
+    }
+    }
+    .benefits > div {
+        display: flex;
+        flex-direction: row;
+        margin-left: 3vw;
+        max-height: 8vh;
+    }
+    .benefitTitle {
+        font-size: 1.1rem;
+        margin: 1.5vh auto;
+        text-align: left;
+
+     }
+    @media only screen and (min-width: 320px) and (max-width: 410px) {
+    .benefits > div {
+        max-height: 7vh;
+        margin-left: 3vw;
+        max-width: 70vw;
+    }
+    }
+    @media only screen and (min-width: 950px) {
+    .benefits > div {
+        margin-left: 1vw;
+    }
+    }
