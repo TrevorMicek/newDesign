@@ -33,11 +33,11 @@
    margin: 1vh 1vw;
    position: relative;
    bottom: 0vh;
-
+    max-width: 300px;
 }
 .FirstText {
     text-align: left;
-    max-width: 60vw;
+    max-width: 500px;
     margin: 1vh 1vw;
     position: relative;
     bottom: 0vh;
@@ -96,10 +96,12 @@
 .firstSectionTitle {
     display: flex;
     justify-content:left;
+
 }
 .firstSectionTitle > h3 {
     font-size: 1.6rem;
     margin: auto 0;
+
 }
 .firstSectionText {
     font-size: 1.1rem;
@@ -107,6 +109,7 @@
 }
 .firstSectionText p {
     margin: 2vh 0;
+
 }
 @media only screen and (min-width: 320px) and (max-width: 410px) {
 .firstSectionTitle > h3 {
@@ -172,8 +175,8 @@
     margin-bottom: 10vh;
     text-align: center;
     background: rgb(34, 34, 34);
-    max-width: 300px;
-
+    max-width: 320px;
+    min-width: 60vw;
 
 }
 .pricingTitle > span:nth-child(1) {
@@ -228,16 +231,11 @@
 }
 @media only screen and (min-width: 500px) {
 .pricingSection > div{
-    min-width: 300px;
+    min-width: 340px;
 
 }
 }
-@media only screen and (min-width: 1000px) {
-    .pricingSection > div{
-        margin: 0 1vw;
 
-    }
-    }
     .benefits > div {
         display: flex;
         flex-direction: row;
@@ -257,11 +255,7 @@
         max-width: 70vw;
     }
     }
-    @media only screen and (min-width: 950px) {
-    .benefits > div {
-        margin-left: 1vw;
-    }
-    }
+
     .gradient {
         width: 100vw;
         height: 25vh;
